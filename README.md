@@ -1,2 +1,2 @@
 # scilib
-Here are some function to do science research.
+Here are some functions to do scientific research.
