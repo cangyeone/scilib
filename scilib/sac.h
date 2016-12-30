@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <float.h>
 #include <stdlib.h>
-
+#ifndef SAC_H_
+#define SAC_H_
 typedef float float32;
 typedef int int32;
 typedef long long int64;
@@ -35,3 +36,4 @@ SacData SacGetData(FILE *sacFile,SacHead SacHead);
 SacFile SacFileRead(const char *fileName);
 void SacFileClose(SacFile file);
 void SacFileToTxt(const char *inFileName,const char *outFileName);
+#endif /*SAC_H_*/
